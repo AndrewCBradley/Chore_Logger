@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "652478625554",
+    "firebase_url": "https://chore-logger.firebaseio.com",
+    "project_id": "chore-logger",
+    "storage_bucket": "chore-logger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652478625554:android:c31a0a04370e27e77665cb",
+        "android_client_info": {
+          "package_name": "com.example.chorelogger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652478625554-vshen0rdt6vomteq8jmrva324ngkpmqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chorelogger",
+            "certificate_hash": "b4be8acc97f1d19f4ca10544ab8860fb019c9d94"
+          }
+        },
+        {
+          "client_id": "652478625554-i42ldk90ctvq3t1lmr8iilditi1t7k6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDngx5YONw9NKubtwPv7sDqPy4UTiM5xRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652478625554-i42ldk90ctvq3t1lmr8iilditi1t7k6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

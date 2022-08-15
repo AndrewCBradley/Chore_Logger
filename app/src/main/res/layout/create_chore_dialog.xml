@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/createChoreInstructionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:text="Fill out the following information to make a new chore" />
+
+
+    <EditText
+        android:id="@+id/createChoreName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createChoreInstructionTextView"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:hint="Chore Name" />
+
+
+
+    <Button
+        android:id="@+id/createChoreSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createChoreName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Create Chore" />
+</RelativeLayout>

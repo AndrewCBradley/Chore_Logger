@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Chore Logger</string>
+    <string-array name="users">
+        <item>--Select User--</item>
+        <item>Andrew</item>
+        <item>Dave</item>
+        <item>Adrian</item>
+        <item>Bob</item>
+
+    </string-array>
+
+
+</resources>

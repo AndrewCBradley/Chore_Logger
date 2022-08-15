@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chores">
+
+    <TextView
+        android:id="@+id/user_display"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:text="UserID not found, RETRY" />
+
+    <TextView
+        android:id="@+id/text_current_day"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/user_display"
+        android:text="Date not found"/>
+
+    <Button
+        android:id="@+id/button_change_date"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/user_display"
+        android:text="Change Date" />
+
+
+    <ListView
+        android:id="@+id/chore_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/button_change_date"/>
+
+    <Button
+        android:id="@+id/button_add_chore"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/chore_list_view"
+        android:text="Add New Chore" />
+
+</RelativeLayout>
